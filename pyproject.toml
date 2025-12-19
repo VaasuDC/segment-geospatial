@@ -76,11 +76,11 @@ samgeo3 = [
     "buildingregulariser",
     "leafmap",
     "localtileserver",
-    "psutil; sys_platform == 'windows'",
+    "psutil; platform_system == 'windows'",
     "spacy",
     "tokenizers==0.22.1",
-    "triton>=3.5.1; sys_platform == 'linux'",
-    "triton-windows; sys_platform == 'windows'",
+    "triton>=3.5.1; platform_system == 'linux'",
+    "triton-windows; platform_system == 'windows'",
     "transformers",
     "xarray"
 ]
